@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode=development",
-    "prod": "webpack --mode=production"
+    "build": "webpack --mode=development",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -16,12 +17,13 @@
   "bugs": {
     "url": "https://github.com/ArtemKolesnyk/my-first-webpack-setup/issues"
   },
-  "homepage": "https://github.com/ArtemKolesnyk/my-first-webpack-setup#readme",
+  "homepage": "https://github.com/ArtemKolesnyk/my-first-webpack-setup",
   "devDependencies": {
     "@babel/core": "^7.20.2",
     "@babel/preset-env": "^7.20.2",
     "babel-loader": "^9.1.0",
     "css-loader": "^6.7.1",
+    "gh-pages": "^4.0.0",
     "html-webpack-partials-plugin": "^0.8.0",
     "html-webpack-plugin": "^5.5.0",
     "mini-css-extract-plugin": "^2.6.1",

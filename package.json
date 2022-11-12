@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/ArtemKolesnyk/my-first-webpack-setup/issues"
   },
-  "homepage": "https://github.com/ArtemKolesnyk/my-first-webpack-setup",
+  "homepage": "https://github.com/ArtemKolesnyk/my-first-webpack-setup/",
   "devDependencies": {
     "@babel/core": "^7.20.2",
     "@babel/preset-env": "^7.20.2",
